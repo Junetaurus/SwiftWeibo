@@ -1,0 +1,14 @@
+//
+//  SwiftWeibo.pch
+//  SwiftWeibo
+//
+//  Created by ZhangJun on 2017/3/16.
+//  Copyright © 2017年 Taurus. All rights reserved.
+//
+
+#ifndef SwiftWeibo_pch
+#define SwiftWeibo_pch
+
+
+
+#endif /* SwiftWeibo_pch */
