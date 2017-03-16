@@ -16,13 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        self.window = UIWindow.init()
-        self.window?.frame = UIScreen.main.bounds
+        self.window = UIWindow(frame:UIScreen.main.bounds)
         self.window?.backgroundColor = UIColor.white
         self.window?.makeKeyAndVisible()
         
-        let oAuthVC = OAuthViewController()
-        self.window?.rootViewController = oAuthVC
+        let rooTool = RootTool()
+        rooTool.chooseRootViewController(window: self.window!)
         
         return true
     }

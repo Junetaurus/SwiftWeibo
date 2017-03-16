@@ -8,21 +8,6 @@
 
 import UIKit
 
-var item: UITabBarItem?
-
 class BadgeView: UIButton {
     
-    var badgeView: BadgeView {
-        let view = BadgeView()
-        return view
-    }
-    
-    override func draw(_ rect: CGRect) {
-        self.setTitleColor(UIColor.black, for: UIControlState.normal)
-        self.setTitleColor(UIColor.orange, for: UIControlState.selected)
-        
-        self.imageView?.contentMode = UIViewContentMode.center
-        self.titleLabel?.textAlignment = NSTextAlignment.center
-        self.titleLabel?.font = UIFont.systemFont(ofSize: 12)
-    }
 }

@@ -17,11 +17,14 @@ class RootTool: NSObject {
         let lastVersion = UserDefaults.standard.object(forKey: "version") as? String ?? ""
         
         if currentVersion == lastVersion {
+            let tab = TabBarController()
+            window.rootViewController = tab;
             
         } else {
             let vc = NewFeatureViewController()
             window.rootViewController = vc;
             UserDefaults.standard.set(currentVersion, forKey: "version")
+            
         }
     }
 }

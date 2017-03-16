@@ -95,7 +95,6 @@
 				605473711E7A7B9F001CA00C /* Home */,
 				605473751E7A7B9F001CA00C /* Main */,
 				605473791E7A7B9F001CA00C /* Message */,
-				6054737D1E7A7B9F001CA00C /* Other */,
 				605473801E7A7B9F001CA00C /* Profile */,
 				605473631E7A7A9C001CA00C /* Tool */,
 				6054735D1E7A79C7001CA00C /* NewFeature */,
@@ -366,29 +365,6 @@
 			children = (
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		6054737D1E7A7B9F001CA00C /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				6054737E1E7A7B9F001CA00C /* Category */,
-				6054737F1E7A7B9F001CA00C /* Lib */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		6054737E1E7A7B9F001CA00C /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		6054737F1E7A7B9F001CA00C /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Lib;
 			sourceTree = "<group>";
 		};
 		605473801E7A7B9F001CA00C /* Profile */ = {
