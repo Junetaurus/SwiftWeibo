@@ -23,6 +23,7 @@
 		6060DE9D1E7A880C0055F510 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060DE9C1E7A880C0055F510 /* NavigationController.swift */; };
 		6060DE9F1E7A88410055F510 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060DE9E1E7A88410055F510 /* TabBarButton.swift */; };
 		6060DEA11E7A885C0055F510 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060DEA01E7A885C0055F510 /* BadgeView.swift */; };
+		6076324C1E7B8A2500927005 /* commonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076324B1E7B8A2500927005 /* commonTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		6060DE9C1E7A880C0055F510 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		6060DE9E1E7A88410055F510 /* TabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 		6060DEA01E7A885C0055F510 /* BadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		6076324B1E7B8A2500927005 /* commonTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commonTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +404,7 @@
 		6060DE8A1E7A7EE80055F510 /* Compose */ = {
 			isa = PBXGroup;
 			children = (
+				6076324B1E7B8A2500927005 /* commonTool.swift */,
 			);
 			path = Compose;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 				605473521E7A6EED001CA00C /* OAuthViewController.swift in Sources */,
 				6060DE9F1E7A88410055F510 /* TabBarButton.swift in Sources */,
 				605473621E7A79E4001CA00C /* NewFeatureViewController.swift in Sources */,
+				6076324C1E7B8A2500927005 /* commonTool.swift in Sources */,
 				6060DE991E7A87340055F510 /* TabBarController.swift in Sources */,
 				6054733B1E7A6BF9001CA00C /* AppDelegate.swift in Sources */,
 				605473681E7A7AB4001CA00C /* RootTool.swift in Sources */,

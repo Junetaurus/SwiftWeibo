@@ -20,8 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.backgroundColor = UIColor.white
         self.window?.makeKeyAndVisible()
         
-        let rooTool = RootTool()
-        rooTool.chooseRootViewController(window: self.window!)
+        RootTool.chooseRootViewController(window: self.window!)
         
         return true
     }

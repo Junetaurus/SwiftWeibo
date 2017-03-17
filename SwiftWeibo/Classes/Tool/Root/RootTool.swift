@@ -10,7 +10,7 @@ import UIKit
 
 class RootTool: NSObject {
 
-    func chooseRootViewController(window : UIWindow) {
+    class func chooseRootViewController(window : UIWindow) {
         
         let currentVersion = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String ?? ""
         
