@@ -21,10 +21,14 @@ class RootTool: NSObject {
             window.rootViewController = tab;
             
         } else {
-            let vc = NewFeatureViewController()
+            let layout = UICollectionViewFlowLayout.init()
+            layout.itemSize = UIScreen.main.bounds.size
+            layout.minimumLineSpacing = 0
+            layout.minimumInteritemSpacing = 0
+            layout.scrollDirection = .horizontal
+            let vc = NewFeatureViewController.init(collectionViewLayout: layout)
             window.rootViewController = vc;
             UserDefaults.standard.set(currentVersion, forKey: "version")
-            
         }
     }
 }

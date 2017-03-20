@@ -13,17 +13,11 @@ private let reuseIdentifier = "Cell"
 class NewFeatureViewController: UICollectionViewController {
     
     var controller: UIPageControl? = nil
-    lazy var imageArray = NSMutableArray() 
-        
+    lazy var imageArray = NSMutableArray()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let layout = UICollectionViewFlowLayout.init()
-        layout.itemSize = UIScreen.main.bounds.size
-        layout.minimumLineSpacing = 0
-        layout.minimumInteritemSpacing = 0
-        layout.scrollDirection = UICollectionViewScrollDirection.horizontal
-        self.collectionView!.setCollectionViewLayout(layout, animated: false)
+        
         // Register cell classes
         self.collectionView!.register(NewFeatureCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         self.collectionView!.isPagingEnabled = true
@@ -37,21 +31,24 @@ class NewFeatureViewController: UICollectionViewController {
     
     func setDateSource() {
         imageArray.removeAllObjects()
-        for i in 0..<4  {
+        for i in 1..<5  {
+            var imageName = ""
             if getDeviceType() == iPhone4 {
-                
+                imageName = "new_feature_" + String(i)
+                imageArray.add(imageName)
             } else {
-                
+                imageName = "new_feature_" + String(i) + "-568h"
+                imageArray.add(imageName)
             }
         }
     }
     
     func setUpPageControl() {
         controller = UIPageControl.init()
-        controller!.numberOfPages = 4
+        controller!.numberOfPages = imageArray.count
         controller!.pageIndicatorTintColor = UIColor.black
         controller!.currentPageIndicatorTintColor = UIColor.red
-        controller!.center = CGPoint.init(x: self.view.bounds.size.width / 2, y: self.view.bounds.size.height / 2 - 30)
+        controller!.center = CGPoint.init(x: ScreenWidth / 2, y: ScreenHeight - 30)
         self.view.addSubview(controller!)
     }
     
@@ -69,13 +66,18 @@ class NewFeatureViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 4
+        return imageArray.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-    
-        // Configure the cell
+        
+        let myCell = cell as! NewFeatureCell
+        
+        let image: UIImage = UIImage.init(named: imageArray[indexPath.item] as! String)!
+        myCell.image = image
+        
+        myCell.setIndexPathWithCount(indexPath: indexPath as NSIndexPath, count: imageArray.count)
         
         return cell
     }
