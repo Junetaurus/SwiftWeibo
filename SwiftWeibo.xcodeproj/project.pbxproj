@@ -22,6 +22,24 @@
 		6060DE9D1E7A880C0055F510 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060DE9C1E7A880C0055F510 /* NavigationController.swift */; };
 		6060DE9F1E7A88410055F510 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060DE9E1E7A88410055F510 /* TabBarButton.swift */; };
 		6060DEA11E7A885C0055F510 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060DEA01E7A885C0055F510 /* BadgeView.swift */; };
+		60662D671E7FAC7000C95DA3 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D551E7FAC7000C95DA3 /* AFError.swift */; };
+		60662D681E7FAC7000C95DA3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D571E7FAC7000C95DA3 /* Alamofire.swift */; };
+		60662D691E7FAC7000C95DA3 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D581E7FAC7000C95DA3 /* DispatchQueue+Alamofire.swift */; };
+		60662D6A1E7FAC7000C95DA3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D591E7FAC7000C95DA3 /* MultipartFormData.swift */; };
+		60662D6B1E7FAC7000C95DA3 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D5A1E7FAC7000C95DA3 /* NetworkReachabilityManager.swift */; };
+		60662D6C1E7FAC7000C95DA3 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D5B1E7FAC7000C95DA3 /* Notifications.swift */; };
+		60662D6D1E7FAC7000C95DA3 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D5C1E7FAC7000C95DA3 /* ParameterEncoding.swift */; };
+		60662D6E1E7FAC7000C95DA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D5D1E7FAC7000C95DA3 /* Request.swift */; };
+		60662D6F1E7FAC7000C95DA3 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D5E1E7FAC7000C95DA3 /* Response.swift */; };
+		60662D701E7FAC7000C95DA3 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D5F1E7FAC7000C95DA3 /* ResponseSerialization.swift */; };
+		60662D711E7FAC7000C95DA3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D601E7FAC7000C95DA3 /* Result.swift */; };
+		60662D721E7FAC7000C95DA3 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D611E7FAC7000C95DA3 /* ServerTrustPolicy.swift */; };
+		60662D731E7FAC7000C95DA3 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D621E7FAC7000C95DA3 /* SessionDelegate.swift */; };
+		60662D741E7FAC7000C95DA3 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D631E7FAC7000C95DA3 /* SessionManager.swift */; };
+		60662D751E7FAC7000C95DA3 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D641E7FAC7000C95DA3 /* TaskDelegate.swift */; };
+		60662D761E7FAC7000C95DA3 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D651E7FAC7000C95DA3 /* Timeline.swift */; };
+		60662D771E7FAC7000C95DA3 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662D661E7FAC7000C95DA3 /* Validation.swift */; };
+		60662DA51E7FAE5700C95DA3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DA41E7FAE5700C95DA3 /* SwiftyJSON.swift */; };
 		6076324C1E7B8A2500927005 /* commonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076324B1E7B8A2500927005 /* commonTool.swift */; };
 		6076324E1E7BE05C00927005 /* NewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076324D1E7BE05C00927005 /* NewFeatureViewController.swift */; };
 		607632501E7BE09F00927005 /* NewFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076324F1E7BE09F00927005 /* NewFeatureCell.swift */; };
@@ -59,6 +77,26 @@
 		6060DE9C1E7A880C0055F510 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		6060DE9E1E7A88410055F510 /* TabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 		6060DEA01E7A885C0055F510 /* BadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		60662D551E7FAC7000C95DA3 /* AFError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		60662D561E7FAC7000C95DA3 /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alamofire.h; sourceTree = "<group>"; };
+		60662D571E7FAC7000C95DA3 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		60662D581E7FAC7000C95DA3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		60662D591E7FAC7000C95DA3 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		60662D5A1E7FAC7000C95DA3 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		60662D5B1E7FAC7000C95DA3 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		60662D5C1E7FAC7000C95DA3 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		60662D5D1E7FAC7000C95DA3 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		60662D5E1E7FAC7000C95DA3 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		60662D5F1E7FAC7000C95DA3 /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		60662D601E7FAC7000C95DA3 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		60662D611E7FAC7000C95DA3 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		60662D621E7FAC7000C95DA3 /* SessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		60662D631E7FAC7000C95DA3 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		60662D641E7FAC7000C95DA3 /* TaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		60662D651E7FAC7000C95DA3 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		60662D661E7FAC7000C95DA3 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		60662DA31E7FAE5700C95DA3 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		60662DA41E7FAE5700C95DA3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		6076324B1E7B8A2500927005 /* commonTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commonTool.swift; sourceTree = "<group>"; };
 		6076324D1E7BE05C00927005 /* NewFeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatureViewController.swift; sourceTree = "<group>"; };
 		6076324F1E7BE09F00927005 /* NewFeatureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatureCell.swift; sourceTree = "<group>"; };
@@ -121,6 +159,7 @@
 		6054734C1E7A6C97001CA00C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				60662D4F1E7FAB6600C95DA3 /* Other */,
 				605473691E7A7B9F001CA00C /* Compose */,
 				6054736D1E7A7B9F001CA00C /* Discover */,
 				605473711E7A7B9F001CA00C /* Home */,
@@ -461,6 +500,73 @@
 			path = User;
 			sourceTree = "<group>";
 		};
+		60662D4F1E7FAB6600C95DA3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				60662D501E7FAB6600C95DA3 /* Category */,
+				60662D511E7FAB6600C95DA3 /* Lib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		60662D501E7FAB6600C95DA3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		60662D511E7FAB6600C95DA3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				60662D521E7FAC2A00C95DA3 /* Alamofire */,
+				60662D531E7FAC2A00C95DA3 /* Kingfisher */,
+				60662D541E7FAC2A00C95DA3 /* SwiftyJSON */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		60662D521E7FAC2A00C95DA3 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				60662D551E7FAC7000C95DA3 /* AFError.swift */,
+				60662D561E7FAC7000C95DA3 /* Alamofire.h */,
+				60662D571E7FAC7000C95DA3 /* Alamofire.swift */,
+				60662D581E7FAC7000C95DA3 /* DispatchQueue+Alamofire.swift */,
+				60662D591E7FAC7000C95DA3 /* MultipartFormData.swift */,
+				60662D5A1E7FAC7000C95DA3 /* NetworkReachabilityManager.swift */,
+				60662D5B1E7FAC7000C95DA3 /* Notifications.swift */,
+				60662D5C1E7FAC7000C95DA3 /* ParameterEncoding.swift */,
+				60662D5D1E7FAC7000C95DA3 /* Request.swift */,
+				60662D5E1E7FAC7000C95DA3 /* Response.swift */,
+				60662D5F1E7FAC7000C95DA3 /* ResponseSerialization.swift */,
+				60662D601E7FAC7000C95DA3 /* Result.swift */,
+				60662D611E7FAC7000C95DA3 /* ServerTrustPolicy.swift */,
+				60662D621E7FAC7000C95DA3 /* SessionDelegate.swift */,
+				60662D631E7FAC7000C95DA3 /* SessionManager.swift */,
+				60662D641E7FAC7000C95DA3 /* TaskDelegate.swift */,
+				60662D651E7FAC7000C95DA3 /* Timeline.swift */,
+				60662D661E7FAC7000C95DA3 /* Validation.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		60662D531E7FAC2A00C95DA3 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		60662D541E7FAC2A00C95DA3 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				60662DA31E7FAE5700C95DA3 /* SwiftyJSON.h */,
+				60662DA41E7FAE5700C95DA3 /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
 		607632531E7BFA6600927005 /* NewFeatureImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -570,16 +676,34 @@
 				6060DE9F1E7A88410055F510 /* TabBarButton.swift in Sources */,
 				6076324C1E7B8A2500927005 /* commonTool.swift in Sources */,
 				607632501E7BE09F00927005 /* NewFeatureCell.swift in Sources */,
+				60662D6F1E7FAC7000C95DA3 /* Response.swift in Sources */,
 				6060DE991E7A87340055F510 /* TabBarController.swift in Sources */,
 				6054733B1E7A6BF9001CA00C /* AppDelegate.swift in Sources */,
+				60662D681E7FAC7000C95DA3 /* Alamofire.swift in Sources */,
+				60662D6A1E7FAC7000C95DA3 /* MultipartFormData.swift in Sources */,
 				605473681E7A7AB4001CA00C /* RootTool.swift in Sources */,
 				6060DEA11E7A885C0055F510 /* BadgeView.swift in Sources */,
+				60662D701E7FAC7000C95DA3 /* ResponseSerialization.swift in Sources */,
+				60662D6E1E7FAC7000C95DA3 /* Request.swift in Sources */,
 				6060DE951E7A86DD0055F510 /* DiscoverViewController.swift in Sources */,
+				60662D691E7FAC7000C95DA3 /* DispatchQueue+Alamofire.swift in Sources */,
+				60662D721E7FAC7000C95DA3 /* ServerTrustPolicy.swift in Sources */,
+				60662D671E7FAC7000C95DA3 /* AFError.swift in Sources */,
+				60662D711E7FAC7000C95DA3 /* Result.swift in Sources */,
+				60662D741E7FAC7000C95DA3 /* SessionManager.swift in Sources */,
+				60662D761E7FAC7000C95DA3 /* Timeline.swift in Sources */,
 				6060DE971E7A86FA0055F510 /* ProfileViewController.swift in Sources */,
+				60662D731E7FAC7000C95DA3 /* SessionDelegate.swift in Sources */,
 				6060DE9B1E7A875B0055F510 /* TabBar.swift in Sources */,
 				6060DE911E7A86B20055F510 /* HomeViewController.swift in Sources */,
+				60662D771E7FAC7000C95DA3 /* Validation.swift in Sources */,
+				60662D6D1E7FAC7000C95DA3 /* ParameterEncoding.swift in Sources */,
+				60662D6B1E7FAC7000C95DA3 /* NetworkReachabilityManager.swift in Sources */,
+				60662D751E7FAC7000C95DA3 /* TaskDelegate.swift in Sources */,
+				60662D6C1E7FAC7000C95DA3 /* Notifications.swift in Sources */,
 				6076324E1E7BE05C00927005 /* NewFeatureViewController.swift in Sources */,
 				607632521E7BEA8600927005 /* SwiftWeibo.swift in Sources */,
+				60662DA51E7FAE5700C95DA3 /* SwiftyJSON.swift in Sources */,
 				6060DE931E7A86C60055F510 /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
