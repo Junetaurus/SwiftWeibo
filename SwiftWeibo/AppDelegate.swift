@@ -20,7 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.backgroundColor = UIColor.white
         self.window?.makeKeyAndVisible()
         
-        RootTool.chooseRootViewController(window: self.window!)
+        
+        if AccountTool.account().access_token == "" {
+            let aAuthVC = OAuthViewController()
+            self.window!.rootViewController = aAuthVC
+            
+        } else {
+            RootTool.chooseRootViewController(window: self.window!)
+        }
         
         return true
     }
