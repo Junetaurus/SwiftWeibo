@@ -8,29 +8,26 @@
 
 import UIKit
 
-var userAccount: Account? = nil
-let AccountFileName = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] + "account.data"
-
 class AccountTool: NSObject {
     
     class func saveAccount(account: Account) {
-        NSKeyedArchiver.archiveRootObject(account, toFile: AccountFileName)
+        UserDefaults.standard.set(account.uid, forKey: "uid")
+        UserDefaults.standard.set(account.access_token, forKey: "access_token")
+        UserDefaults.standard.set(account.expires_in, forKey: "expires_in")
+        UserDefaults.standard.set(account.remind_in, forKey: "remind_in")
+        UserDefaults.standard.synchronize()
     }
     
     class func account() -> Account {
-        if userAccount == nil {
-            userAccount = NSKeyedUnarchiver.unarchiveObject(withFile: AccountFileName) as! Account?
+        let userAccount = Account()
+        userAccount.expires_in = UserDefaults.standard.object(forKey: "expires_in") == nil ? "" : UserDefaults.standard.object(forKey: "expires_in") as! String
+        if userAccount.expires_in == "" {
             
-            // 判断下账号是否过期，如果过期直接返回Nil
-            if userAccount == nil {
-                userAccount = Account()
-            } else {
-                if Date().compare((userAccount?.expires_date)!) == ComparisonResult.orderedDescending {
-                    userAccount?.access_token = ""
-                }
-
-            }
+        } else {
+            userAccount.uid = UserDefaults.standard.object(forKey: "uid") as! String
+            userAccount.access_token = UserDefaults.standard.object(forKey: "access_token") as! String
+            userAccount.remind_in = UserDefaults.standard.object(forKey: "remind_in") as! String
         }
-        return userAccount!
+        return userAccount
     }
 }

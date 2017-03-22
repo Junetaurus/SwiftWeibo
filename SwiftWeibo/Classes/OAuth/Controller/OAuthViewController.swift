@@ -67,17 +67,19 @@ class OAuthViewController: UIViewController,UIWebViewDelegate {
      
      */
     func accessTokenWithCode(code: String) {
-        let params = NSMutableDictionary()
-        params["client_id"] = Client_id;
-        params["client_secret"] = Client_secret;
-        params["grant_type"] = "authorization_code";
-        params["code"] = code;
-        params["redirect_uri"] = Redirect_uri;
-
-        HttpTool.shared.postRequest(urlString: "https://api.weibo.com/oauth2/access_token", params: (params as NSDictionary) as! [String : Any] , success: { (response: [String: AnyObject]) in
+        let params = ["client_id":Client_id, "client_secret":Client_secret, "grant_type":Authorization_code, "code":code, "redirect_uri":Redirect_uri]
+        
+        HttpTool.shared.request(type: .POST, urlString: "https://api.weibo.com/oauth2/access_token", paramters: params) { (result) in
+            // 将result 转成字典
+            guard let resultDict = result as? [String: NSObject] else { return }
+            let account = Account()
+            account.uid = String.init(describing: resultDict["uid"])
+            account.expires_in = String.init(describing: resultDict["expires_in"])
+            account.remind_in = String.init(describing: resultDict["remind_in"])
+            account.access_token = String.init(describing: resultDict["access_token"])
             
-        }) { (error: Error) in
-            
+            AccountTool.saveAccount(account: account)
+            RootTool.chooseRootViewController(window: UIApplication.shared.keyWindow!)
         }
     }
 }

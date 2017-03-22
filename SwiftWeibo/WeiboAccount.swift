@@ -13,6 +13,7 @@ let AuthorizeBaseUrl = "https://api.weibo.com/oauth2/authorize"
 let Client_id = "1306571910"
 let Redirect_uri = "http://www.baidu.com"
 let Client_secret = "7416ec7ba6fe111247e9bdfad4c595ec"
+let Authorization_code = "authorization_code"
 
 
 //MARK:

@@ -23,13 +23,9 @@ class Account: NSObject {
     var expires_date: Date?
     
     /// 账号的有效期
-    var remind_in: String = "" {
-        didSet {
-            expires_date = Date.init(timeIntervalSinceNow: Double(remind_in)!)
-        }
-    }
+    var remind_in: String = ""
     
     /// 用户的昵称
     var name: String = ""
-    
+
 }
