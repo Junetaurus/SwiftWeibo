@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6048866F1E80E56700199F4C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604886621E80E52300199F4C /* Alamofire.framework */; };
-		604886701E80E56700199F4C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 604886621E80E52300199F4C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6004003C1E8CAEEB00D5FB9D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6004003B1E8CAEEB00D5FB9D /* Alamofire.framework */; };
 		604886751E80E5AA00199F4C /* HttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604886741E80E5AA00199F4C /* HttpTool.swift */; };
 		604886771E80E77200199F4C /* AccountTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604886761E80E77200199F4C /* AccountTool.swift */; };
 		604886791E80E7A500199F4C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604886781E80E7A500199F4C /* Account.swift */; };
@@ -28,27 +27,6 @@
 		6060DE9D1E7A880C0055F510 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060DE9C1E7A880C0055F510 /* NavigationController.swift */; };
 		6060DE9F1E7A88410055F510 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060DE9E1E7A88410055F510 /* TabBarButton.swift */; };
 		6060DEA11E7A885C0055F510 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060DEA01E7A885C0055F510 /* BadgeView.swift */; };
-		60662DBD1E7FAFEB00C95DA3 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DA61E7FAFEB00C95DA3 /* AnimatedImageView.swift */; };
-		60662DBE1E7FAFEB00C95DA3 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DA71E7FAFEB00C95DA3 /* Box.swift */; };
-		60662DBF1E7FAFEB00C95DA3 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DA81E7FAFEB00C95DA3 /* CacheSerializer.swift */; };
-		60662DC01E7FAFEB00C95DA3 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DA91E7FAFEB00C95DA3 /* Filter.swift */; };
-		60662DC11E7FAFEB00C95DA3 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DAA1E7FAFEB00C95DA3 /* Image.swift */; };
-		60662DC21E7FAFEB00C95DA3 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DAB1E7FAFEB00C95DA3 /* ImageCache.swift */; };
-		60662DC31E7FAFEB00C95DA3 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DAC1E7FAFEB00C95DA3 /* ImageDownloader.swift */; };
-		60662DC41E7FAFEB00C95DA3 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DAD1E7FAFEB00C95DA3 /* ImagePrefetcher.swift */; };
-		60662DC51E7FAFEB00C95DA3 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DAE1E7FAFEB00C95DA3 /* ImageProcessor.swift */; };
-		60662DC61E7FAFEB00C95DA3 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DAF1E7FAFEB00C95DA3 /* ImageTransition.swift */; };
-		60662DC71E7FAFEB00C95DA3 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DB01E7FAFEB00C95DA3 /* ImageView+Kingfisher.swift */; };
-		60662DC81E7FAFEB00C95DA3 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DB11E7FAFEB00C95DA3 /* Indicator.swift */; };
-		60662DC91E7FAFEB00C95DA3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60662DB21E7FAFEB00C95DA3 /* Info.plist */; };
-		60662DCA1E7FAFEB00C95DA3 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DB41E7FAFEB00C95DA3 /* Kingfisher.swift */; };
-		60662DCB1E7FAFEB00C95DA3 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DB51E7FAFEB00C95DA3 /* KingfisherManager.swift */; };
-		60662DCC1E7FAFEB00C95DA3 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DB61E7FAFEB00C95DA3 /* KingfisherOptionsInfo.swift */; };
-		60662DCE1E7FAFEB00C95DA3 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DB81E7FAFEB00C95DA3 /* RequestModifier.swift */; };
-		60662DCF1E7FAFEB00C95DA3 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DB91E7FAFEB00C95DA3 /* Resource.swift */; };
-		60662DD01E7FAFEB00C95DA3 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DBA1E7FAFEB00C95DA3 /* String+MD5.swift */; };
-		60662DD11E7FAFEB00C95DA3 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DBB1E7FAFEB00C95DA3 /* ThreadHelper.swift */; };
-		60662DD21E7FAFEB00C95DA3 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60662DBC1E7FAFEB00C95DA3 /* UIButton+Kingfisher.swift */; };
 		6076324C1E7B8A2500927005 /* commonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076324B1E7B8A2500927005 /* commonTool.swift */; };
 		6076324E1E7BE05C00927005 /* NewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076324D1E7BE05C00927005 /* NewFeatureViewController.swift */; };
 		607632501E7BE09F00927005 /* NewFeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076324F1E7BE09F00927005 /* NewFeatureCell.swift */; };
@@ -65,67 +43,8 @@
 		607632691E7BFA8700927005 /* new_feature_finish_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6076325D1E7BFA8700927005 /* new_feature_finish_button@2x.png */; };
 		6076326A1E7BFA8700927005 /* new_feature_share_false@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6076325E1E7BFA8700927005 /* new_feature_share_false@2x.png */; };
 		6076326B1E7BFA8700927005 /* new_feature_share_true@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6076325F1E7BFA8700927005 /* new_feature_share_true@2x.png */; };
-		60A73A2F1E81328F00E88FDB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A73A2E1E81328F00E88FDB /* SwiftyJSON.swift */; };
+		C6FE7398D46F91C5C3EEC7F6 /* Pods_SwiftWeibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB5F24180C37FE64CD0C585 /* Pods_SwiftWeibo.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		604886611E80E52300199F4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 604886561E80E52300199F4C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
-		604886631E80E52300199F4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 604886561E80E52300199F4C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS Tests";
-		};
-		604886651E80E52300199F4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 604886561E80E52300199F4C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
-			remoteInfo = "Alamofire macOS";
-		};
-		604886671E80E52300199F4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 604886561E80E52300199F4C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
-			remoteInfo = "Alamofire macOS Tests";
-		};
-		604886691E80E52300199F4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 604886561E80E52300199F4C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
-			remoteInfo = "Alamofire tvOS";
-		};
-		6048866B1E80E52300199F4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 604886561E80E52300199F4C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
-			remoteInfo = "Alamofire tvOS Tests";
-		};
-		6048866D1E80E52300199F4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 604886561E80E52300199F4C /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4202FE01B667AA100C997FB;
-			remoteInfo = "Alamofire watchOS";
-		};
-		604886711E80E56700199F4C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 604886561E80E52300199F4C /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		604886731E80E56700199F4C /* Embed Frameworks */ = {
@@ -134,7 +53,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				604886701E80E56700199F4C /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +60,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		604886561E80E52300199F4C /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = SwiftWeibo/Classes/Other/Lib/Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		15764A48A509F9FE20DEEC7F /* Pods-SwiftWeibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWeibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftWeibo/Pods-SwiftWeibo.release.xcconfig"; sourceTree = "<group>"; };
+		6004003B1E8CAEEB00D5FB9D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		604886741E80E5AA00199F4C /* HttpTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpTool.swift; sourceTree = "<group>"; };
 		604886761E80E77200199F4C /* AccountTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountTool.swift; sourceTree = "<group>"; };
 		604886781E80E7A500199F4C /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
@@ -165,28 +84,6 @@
 		6060DE9C1E7A880C0055F510 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		6060DE9E1E7A88410055F510 /* TabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 		6060DEA01E7A885C0055F510 /* BadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
-		60662DA61E7FAFEB00C95DA3 /* AnimatedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
-		60662DA71E7FAFEB00C95DA3 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
-		60662DA81E7FAFEB00C95DA3 /* CacheSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheSerializer.swift; sourceTree = "<group>"; };
-		60662DA91E7FAFEB00C95DA3 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
-		60662DAA1E7FAFEB00C95DA3 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		60662DAB1E7FAFEB00C95DA3 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		60662DAC1E7FAFEB00C95DA3 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
-		60662DAD1E7FAFEB00C95DA3 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
-		60662DAE1E7FAFEB00C95DA3 /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
-		60662DAF1E7FAFEB00C95DA3 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
-		60662DB01E7FAFEB00C95DA3 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
-		60662DB11E7FAFEB00C95DA3 /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
-		60662DB21E7FAFEB00C95DA3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60662DB31E7FAFEB00C95DA3 /* Kingfisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kingfisher.h; sourceTree = "<group>"; };
-		60662DB41E7FAFEB00C95DA3 /* Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kingfisher.swift; sourceTree = "<group>"; };
-		60662DB51E7FAFEB00C95DA3 /* KingfisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherManager.swift; sourceTree = "<group>"; };
-		60662DB61E7FAFEB00C95DA3 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		60662DB81E7FAFEB00C95DA3 /* RequestModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModifier.swift; sourceTree = "<group>"; };
-		60662DB91E7FAFEB00C95DA3 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
-		60662DBA1E7FAFEB00C95DA3 /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
-		60662DBB1E7FAFEB00C95DA3 /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
-		60662DBC1E7FAFEB00C95DA3 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		6076324B1E7B8A2500927005 /* commonTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commonTool.swift; sourceTree = "<group>"; };
 		6076324D1E7BE05C00927005 /* NewFeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatureViewController.swift; sourceTree = "<group>"; };
 		6076324F1E7BE09F00927005 /* NewFeatureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatureCell.swift; sourceTree = "<group>"; };
@@ -203,7 +100,8 @@
 		6076325D1E7BFA8700927005 /* new_feature_finish_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_finish_button@2x.png"; sourceTree = "<group>"; };
 		6076325E1E7BFA8700927005 /* new_feature_share_false@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_share_false@2x.png"; sourceTree = "<group>"; };
 		6076325F1E7BFA8700927005 /* new_feature_share_true@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_share_true@2x.png"; sourceTree = "<group>"; };
-		60A73A2E1E81328F00E88FDB /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		7EB5F24180C37FE64CD0C585 /* Pods_SwiftWeibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWeibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7410929D5E2F8F9D2B0BD88 /* Pods-SwiftWeibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWeibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftWeibo/Pods-SwiftWeibo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,40 +109,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6048866F1E80E56700199F4C /* Alamofire.framework in Frameworks */,
+				6004003C1E8CAEEB00D5FB9D /* Alamofire.framework in Frameworks */,
+				C6FE7398D46F91C5C3EEC7F6 /* Pods_SwiftWeibo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		604886551E80E4E300199F4C /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		604886571E80E52300199F4C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				604886621E80E52300199F4C /* Alamofire.framework */,
-				604886641E80E52300199F4C /* Alamofire iOS Tests.xctest */,
-				604886661E80E52300199F4C /* Alamofire.framework */,
-				604886681E80E52300199F4C /* Alamofire macOS Tests.xctest */,
-				6048866A1E80E52300199F4C /* Alamofire.framework */,
-				6048866C1E80E52300199F4C /* Alamofire tvOS Tests.xctest */,
-				6048866E1E80E52300199F4C /* Alamofire.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6054732E1E7A6BF9001CA00C = {
 			isa = PBXGroup;
 			children = (
-				604886561E80E52300199F4C /* Alamofire.xcodeproj */,
 				605473391E7A6BF9001CA00C /* SwiftWeibo */,
 				605473381E7A6BF9001CA00C /* Products */,
+				A50CD3FB0C552107D21E11CD /* Pods */,
+				95F0697732CF70F373AA03B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -622,7 +501,6 @@
 			isa = PBXGroup;
 			children = (
 				60662D501E7FAB6600C95DA3 /* Category */,
-				60662D511E7FAB6600C95DA3 /* Lib */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -632,45 +510,6 @@
 			children = (
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		60662D511E7FAB6600C95DA3 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				60A73A2D1E81328F00E88FDB /* SwiftyJSON */,
-				604886551E80E4E300199F4C /* Alamofire */,
-				60662D531E7FAC2A00C95DA3 /* Kingfisher */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		60662D531E7FAC2A00C95DA3 /* Kingfisher */ = {
-			isa = PBXGroup;
-			children = (
-				60662DA61E7FAFEB00C95DA3 /* AnimatedImageView.swift */,
-				60662DA71E7FAFEB00C95DA3 /* Box.swift */,
-				60662DA81E7FAFEB00C95DA3 /* CacheSerializer.swift */,
-				60662DA91E7FAFEB00C95DA3 /* Filter.swift */,
-				60662DAA1E7FAFEB00C95DA3 /* Image.swift */,
-				60662DAB1E7FAFEB00C95DA3 /* ImageCache.swift */,
-				60662DAC1E7FAFEB00C95DA3 /* ImageDownloader.swift */,
-				60662DAD1E7FAFEB00C95DA3 /* ImagePrefetcher.swift */,
-				60662DAE1E7FAFEB00C95DA3 /* ImageProcessor.swift */,
-				60662DAF1E7FAFEB00C95DA3 /* ImageTransition.swift */,
-				60662DB01E7FAFEB00C95DA3 /* ImageView+Kingfisher.swift */,
-				60662DB11E7FAFEB00C95DA3 /* Indicator.swift */,
-				60662DB21E7FAFEB00C95DA3 /* Info.plist */,
-				60662DB31E7FAFEB00C95DA3 /* Kingfisher.h */,
-				60662DB41E7FAFEB00C95DA3 /* Kingfisher.swift */,
-				60662DB51E7FAFEB00C95DA3 /* KingfisherManager.swift */,
-				60662DB61E7FAFEB00C95DA3 /* KingfisherOptionsInfo.swift */,
-				60662DB81E7FAFEB00C95DA3 /* RequestModifier.swift */,
-				60662DB91E7FAFEB00C95DA3 /* Resource.swift */,
-				60662DBA1E7FAFEB00C95DA3 /* String+MD5.swift */,
-				60662DBB1E7FAFEB00C95DA3 /* ThreadHelper.swift */,
-				60662DBC1E7FAFEB00C95DA3 /* UIButton+Kingfisher.swift */,
-			);
-			path = Kingfisher;
 			sourceTree = "<group>";
 		};
 		607632531E7BFA6600927005 /* NewFeatureImage */ = {
@@ -692,12 +531,22 @@
 			path = NewFeatureImage;
 			sourceTree = "<group>";
 		};
-		60A73A2D1E81328F00E88FDB /* SwiftyJSON */ = {
+		95F0697732CF70F373AA03B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				60A73A2E1E81328F00E88FDB /* SwiftyJSON.swift */,
+				6004003B1E8CAEEB00D5FB9D /* Alamofire.framework */,
+				7EB5F24180C37FE64CD0C585 /* Pods_SwiftWeibo.framework */,
 			);
-			path = SwiftyJSON;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50CD3FB0C552107D21E11CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7410929D5E2F8F9D2B0BD88 /* Pods-SwiftWeibo.debug.xcconfig */,
+				15764A48A509F9FE20DEEC7F /* Pods-SwiftWeibo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -707,15 +556,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 605473491E7A6BF9001CA00C /* Build configuration list for PBXNativeTarget "SwiftWeibo" */;
 			buildPhases = (
+				F84FCD3CF5759D0F466ED57F /* [CP] Check Pods Manifest.lock */,
 				605473331E7A6BF9001CA00C /* Sources */,
 				605473341E7A6BF9001CA00C /* Frameworks */,
 				605473351E7A6BF9001CA00C /* Resources */,
 				604886731E80E56700199F4C /* Embed Frameworks */,
+				01A9D0B2966CE19D58D1E2BE /* [CP] Embed Pods Frameworks */,
+				57CFA9E19A65287B6067E903 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				604886721E80E56700199F4C /* PBXTargetDependency */,
 			);
 			name = SwiftWeibo;
 			productName = SwiftWeibo;
@@ -750,70 +601,12 @@
 			mainGroup = 6054732E1E7A6BF9001CA00C;
 			productRefGroup = 605473381E7A6BF9001CA00C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 604886571E80E52300199F4C /* Products */;
-					ProjectRef = 604886561E80E52300199F4C /* Alamofire.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				605473361E7A6BF9001CA00C /* SwiftWeibo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		604886621E80E52300199F4C /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 604886611E80E52300199F4C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		604886641E80E52300199F4C /* Alamofire iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire iOS Tests.xctest";
-			remoteRef = 604886631E80E52300199F4C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		604886661E80E52300199F4C /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 604886651E80E52300199F4C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		604886681E80E52300199F4C /* Alamofire macOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire macOS Tests.xctest";
-			remoteRef = 604886671E80E52300199F4C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6048866A1E80E52300199F4C /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 604886691E80E52300199F4C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6048866C1E80E52300199F4C /* Alamofire tvOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire tvOS Tests.xctest";
-			remoteRef = 6048866B1E80E52300199F4C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6048866E1E80E52300199F4C /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 6048866D1E80E52300199F4C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		605473351E7A6BF9001CA00C /* Resources */ = {
@@ -828,7 +621,6 @@
 				605473451E7A6BF9001CA00C /* LaunchScreen.storyboard in Resources */,
 				607632641E7BFA8700927005 /* new_feature_3-568h@2x.png in Resources */,
 				607632691E7BFA8700927005 /* new_feature_finish_button@2x.png in Resources */,
-				60662DC91E7FAFEB00C95DA3 /* Info.plist in Resources */,
 				607632631E7BFA8700927005 /* new_feature_2@2x.png in Resources */,
 				607632621E7BFA8700927005 /* new_feature_2-568h@2x.png in Resources */,
 				6076326B1E7BFA8700927005 /* new_feature_share_true@2x.png in Resources */,
@@ -840,65 +632,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01A9D0B2966CE19D58D1E2BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftWeibo/Pods-SwiftWeibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57CFA9E19A65287B6067E903 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftWeibo/Pods-SwiftWeibo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F84FCD3CF5759D0F466ED57F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		605473331E7A6BF9001CA00C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60662DD11E7FAFEB00C95DA3 /* ThreadHelper.swift in Sources */,
 				6060DE8F1E7A869E0055F510 /* ComposeViewController.swift in Sources */,
-				60662DC61E7FAFEB00C95DA3 /* ImageTransition.swift in Sources */,
-				60662DC21E7FAFEB00C95DA3 /* ImageCache.swift in Sources */,
-				60662DD01E7FAFEB00C95DA3 /* String+MD5.swift in Sources */,
 				6060DE9D1E7A880C0055F510 /* NavigationController.swift in Sources */,
 				604886751E80E5AA00199F4C /* HttpTool.swift in Sources */,
-				60662DCE1E7FAFEB00C95DA3 /* RequestModifier.swift in Sources */,
 				605473521E7A6EED001CA00C /* OAuthViewController.swift in Sources */,
 				6060DE9F1E7A88410055F510 /* TabBarButton.swift in Sources */,
-				60662DC81E7FAFEB00C95DA3 /* Indicator.swift in Sources */,
 				6076324C1E7B8A2500927005 /* commonTool.swift in Sources */,
 				6048867B1E80EA8A00199F4C /* WeiboAccount.swift in Sources */,
 				607632501E7BE09F00927005 /* NewFeatureCell.swift in Sources */,
 				604886791E80E7A500199F4C /* Account.swift in Sources */,
-				60662DC71E7FAFEB00C95DA3 /* ImageView+Kingfisher.swift in Sources */,
 				6060DE991E7A87340055F510 /* TabBarController.swift in Sources */,
-				60662DCC1E7FAFEB00C95DA3 /* KingfisherOptionsInfo.swift in Sources */,
 				6054733B1E7A6BF9001CA00C /* AppDelegate.swift in Sources */,
-				60662DC11E7FAFEB00C95DA3 /* Image.swift in Sources */,
-				60662DC01E7FAFEB00C95DA3 /* Filter.swift in Sources */,
-				60662DBD1E7FAFEB00C95DA3 /* AnimatedImageView.swift in Sources */,
 				605473681E7A7AB4001CA00C /* RootTool.swift in Sources */,
-				60662DC31E7FAFEB00C95DA3 /* ImageDownloader.swift in Sources */,
 				6060DEA11E7A885C0055F510 /* BadgeView.swift in Sources */,
-				60662DCA1E7FAFEB00C95DA3 /* Kingfisher.swift in Sources */,
-				60662DCB1E7FAFEB00C95DA3 /* KingfisherManager.swift in Sources */,
 				6060DE951E7A86DD0055F510 /* DiscoverViewController.swift in Sources */,
-				60662DBE1E7FAFEB00C95DA3 /* Box.swift in Sources */,
-				60662DCF1E7FAFEB00C95DA3 /* Resource.swift in Sources */,
 				6060DE971E7A86FA0055F510 /* ProfileViewController.swift in Sources */,
 				6060DE9B1E7A875B0055F510 /* TabBar.swift in Sources */,
 				6060DE911E7A86B20055F510 /* HomeViewController.swift in Sources */,
-				60A73A2F1E81328F00E88FDB /* SwiftyJSON.swift in Sources */,
 				604886771E80E77200199F4C /* AccountTool.swift in Sources */,
-				60662DC41E7FAFEB00C95DA3 /* ImagePrefetcher.swift in Sources */,
-				60662DC51E7FAFEB00C95DA3 /* ImageProcessor.swift in Sources */,
 				6076324E1E7BE05C00927005 /* NewFeatureViewController.swift in Sources */,
-				60662DD21E7FAFEB00C95DA3 /* UIButton+Kingfisher.swift in Sources */,
-				60662DBF1E7FAFEB00C95DA3 /* CacheSerializer.swift in Sources */,
 				607632521E7BEA8600927005 /* SwiftWeibo.swift in Sources */,
 				6060DE931E7A86C60055F510 /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		604886721E80E56700199F4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Alamofire iOS";
-			targetProxy = 604886711E80E56700199F4C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		605473431E7A6BF9001CA00C /* LaunchScreen.storyboard */ = {
@@ -1005,10 +816,15 @@
 		};
 		6054734A1E7A6BF9001CA00C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7410929D5E2F8F9D2B0BD88 /* Pods-SwiftWeibo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5Y83Y3MD48;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SwiftWeibo/SwiftWeibo.pch";
 				INFOPLIST_FILE = SwiftWeibo/Info.plist;
@@ -1022,10 +838,15 @@
 		};
 		6054734B1E7A6BF9001CA00C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15764A48A509F9FE20DEEC7F /* Pods-SwiftWeibo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5Y83Y3MD48;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SwiftWeibo/SwiftWeibo.pch";
 				INFOPLIST_FILE = SwiftWeibo/Info.plist;
