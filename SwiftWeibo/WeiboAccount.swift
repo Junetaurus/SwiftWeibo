@@ -10,9 +10,9 @@ import Foundation
 
 //MARK: OAuth 授权信息 (可修改，需自己配置)
 let AuthorizeBaseUrl = "https://api.weibo.com/oauth2/authorize"
-let Client_id = "1306571910"
+let Client_id = "2247054958"
 let Redirect_uri = "http://www.baidu.com"
-let Client_secret = "7416ec7ba6fe111247e9bdfad4c595ec"
+let Client_secret = "53dc4544387f967dd770d1774c4a6d3e"
 let Authorization_code = "authorization_code"
 
 

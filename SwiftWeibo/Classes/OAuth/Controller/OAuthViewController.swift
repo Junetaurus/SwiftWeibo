@@ -20,7 +20,7 @@ class OAuthViewController: UIViewController,UIWebViewDelegate {
         let urlStr =  AuthorizeBaseUrl + "?client_id=" + Client_id + "&redirect_uri=" + Redirect_uri
         
         let webView = UIWebView.init(frame: self.view.frame)
-        webView.loadRequest(URLRequest.init(url: NSURL.init(string: urlStr) as! URL))
+        webView.loadRequest(URLRequest.init(url: NSURL.init(string: urlStr)! as URL))
         webView.delegate = self;
         self.view.addSubview(webView)
     }
