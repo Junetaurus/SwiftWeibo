@@ -21,7 +21,7 @@ class HttpTool: NSObject {
     private override init() {}
     
     
-     //MARK: request
+    //MARK: request
     func request(type: MethodType, urlString: String, paramters: [String: Any]? = nil, finishedCallback: @escaping (_ result: Any) -> ()) {
         // 获取类型
         let method = type == .GET ? HTTPMethod.get : HTTPMethod.post

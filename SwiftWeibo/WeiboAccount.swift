@@ -8,6 +8,11 @@
 
 import Foundation
 
+/*
+ 841482494@qq.com
+ zzjj102487
+ */
+
 //MARK: OAuth 授权信息 (可修改，需自己配置)
 let AuthorizeBaseUrl = "https://api.weibo.com/oauth2/authorize"
 let Client_id = "2247054958"
